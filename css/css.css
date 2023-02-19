@@ -1,0 +1,438 @@
+/* screen - large-desktop */
+
+.large-desktop {
+  background-color: var(--jacksons-purple);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.large-desktop .bp1-animate-enter {
+  animation: bp1-animate-enter-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.large-desktop .bp1-animate-enter1 {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.large-desktop .hound {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 882px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  font-family: 'Sana-Regular', Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  height: 62px;
+  left: 58px;
+  letter-spacing: -0.30px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 168px;
+}
+.large-desktop .img1437-removebg-preview1 {
+  background-color: transparent;
+  bottom: 0px;
+  display: block;
+  height: 1204px;
+  left: -39px;
+  object-fit: cover;
+  position: absolute;
+  width: 903px;
+  opacity: 0;
+}
+.large-desktop .headliner-text {
+  background-color: transparent;
+  bottom: 409px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  display: block;
+  font-family: 'HappyTimes at the IKOB New Game Plus Edition-Regular', Helvetica;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  height: 105px;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  position: absolute;
+  right: 44px;
+  text-align: left;
+  white-space: nowrap;
+  width: 54vw; /*1012px;*/
+opacity: 0;
+}
+.large-desktop .network {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 939px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  font-family: 'Sana-Regular', Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  height: 62px;
+  left: 58px;
+  letter-spacing: -0.30px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 210px;
+}
+@keyframes bp1-animate-enter-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp1-animate-enter1-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+/* screen - mobile */
+
+.mobile {
+  background-color: var(--jacksons-purple);
+  height: 100vh;
+  margin: 0px;
+  min-height: 760px;
+  min-width: 360px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.mobile .bp4-animate-enter {
+  animation: bp4-animate-enter-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.mobile .bp4-animate-enter1 {
+  animation: bp4-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.mobile .hound {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 624px;
+  cursor: pointer;
+  height: 51px;
+  left: 17px;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 141px;
+}
+.mobile .img1437-removebg-preview1 {
+  background-color: transparent;
+  bottom: 1px;
+  display: block;
+  height: 752px;
+  left: -81px;
+  object-fit: cover;
+  position: absolute;
+  width: 564px;
+opacity: 0;
+}
+.mobile .headliner-text {
+  background-color: transparent;
+  bottom: 359px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'HappyTimes at the IKOB New Game Plus Edition-Regular', Helvetica;
+  font-size: 2em;
+  shadow: 2px 2px 2px 2px;
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  letter-spacing: -0.14px;
+  line-height: 10px;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  right: calc(46.15% - 154px);
+  text-align: center;
+  white-space: nowrap;
+  width: 11em;
+opacity: 0;
+}
+.mobile .network {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 666px;
+  cursor: pointer;
+  height: 51px;
+  left: 17px;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 176px;
+}
+@keyframes bp4-animate-enter-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp4-animate-enter1-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+/* screen - small-desktop */
+
+.small-desktop {
+  background-color: rgba(38, 27, 173, 1);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  min-height: 720px;
+  min-width: 1280px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.small-desktop .bp2-animate-enter {
+  animation: bp2-animate-enter-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.small-desktop .bp2-animate-enter1 {
+  animation: bp2-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.small-desktop .hound {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 540px;
+  cursor: pointer;
+  height: 81px;
+  left: 44px;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 134px;
+}
+.small-desktop .img1437-removebg-preview1 {
+  background-color: transparent;
+  bottom: -99px;
+  display: block;
+  height: 893px;
+  left: -30px;
+  object-fit: cover;
+  position: absolute;
+  width: 670px;
+opacity: 0;
+}
+.small-desktop .headliner-text {
+  background-color: transparent;
+  bottom: 270px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  display: block;
+  font-family: 'HappyTimes at the IKOB New Game Plus Edition-Regular', Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  height: 63px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  right: 35px;
+  text-align: left;
+  white-space: nowrap;
+  width: 52vw; /* 605px */
+opacity: 0;
+}
+.small-desktop .network {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 582px;
+  cursor: pointer;
+  height: 81px;
+  left: 44px;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 168px;
+}
+@keyframes bp2-animate-enter-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp2-animate-enter1-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+/* screen - tablet */
+
+.tablet {
+  background-color: var(--jacksons-purple);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1194px;
+  min-width: 834px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.tablet .bp3-animate-enter {
+  animation: bp3-animate-enter-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.tablet .bp3-animate-enter1 {
+  animation: bp3-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.tablet .hound {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 976px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  font-family: 'Sana-Regular', Helvetica;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 400;
+  height: 68px;
+  left: 45px;
+  letter-spacing: -0.33px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 184px;
+}
+.tablet .img1437-removebg-preview1 {
+  background-color: transparent;
+  bottom: 0px;
+  display: block;
+  height: 1253px;
+  left: -53px;
+  object-fit: cover;
+  position: absolute;
+  width: 941px;
+opacity: 0;
+}
+.tablet .headliner-text {
+  background-color: transparent;
+  bottom: 537px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'HappyTimes at the IKOB New Game Plus Edition-Regular', Helvetica;
+  font-size: 61px;
+  shadow: 2px 2px 2px 2px;
+  font-style: normal;
+  font-weight: 400;
+  height: 79px;
+  letter-spacing: -0.30px;
+  line-height: 23px;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  right: calc(48.78% - 367px);
+  text-align: center;
+  white-space: nowrap;
+  width: 752px;
+opacity: 0;
+}
+.tablet .network {
+  animation: bp1-animate-enter1-frames 1.00s ease 0.00s 1 normal forwards;
+  background-color: transparent;
+  bottom: 1042px;
+  color: var(--soft-peach);
+  cursor: pointer;
+  font-family: 'Sana-Regular', Helvetica;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 400;
+  height: 68px;
+  left: 45px;
+  letter-spacing: -0.33px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 231px;
+}
+@keyframes bp3-animate-enter-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp3-animate-enter1-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@media screen and (max-width: 833px) {
+  .large-desktop {
+    display: none;
+   }
+  .small-desktop {
+    display: none;
+   }
+  .tablet {
+    display: none;
+   }
+}
+@media screen and (min-width: 834px) and (max-width: 1279px) {
+  .large-desktop {
+    display: none;
+   }
+  .small-desktop {
+    display: none;
+   }
+  .mobile {
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .large-desktop {
+    display: none;
+   }
+  .tablet {
+    display: none;
+   }
+  .mobile {
+    display: none;
+   }
+}
+@media screen and (min-width: 1920px) {
+  .small-desktop {
+    display: none;
+   }
+  .tablet {
+    display: none;
+   }
+  .mobile {
+    display: none;
+   }
+}
